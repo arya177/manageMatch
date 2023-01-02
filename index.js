@@ -59,5 +59,5 @@ app.post("/admin/update", async (req, res) => {
 });
 
 app.listen(process.env.PORT||8000, () => {
-  console.log("Server Is Running at port 8000");
+  console.log("Server Is Running at port "+ process.env.PORT);
 });
